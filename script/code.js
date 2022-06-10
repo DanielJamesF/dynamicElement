@@ -1,12 +1,5 @@
-let smartPeople = ['Daniel', 'Clayton', 'Muddathir', 'Jared', 'Yaseen'];
+let smartPeople = ['Charles', 'Amanda', 'Bulelani', 'Cameron', 'Cassidy', 'Clayton', 'Daniel', 'Emile', 'Ikhlaas', 'Joshe', 'Joshua', 'Liam', 'Marshalino', 'Meagan', 'Michaela', 'Mikhail', 'Monique', 'Philani', 'Ra\'ees', 'Rasheedah', 'Reagan', 'Ridhaa', 'Saleem', 'Shane', 'Sibongile', 'Siliziwe', 'Sinethemba', 'Taucia', 'Yaseen'];
 let wrapper = document.getElementById('names');
 smartPeople.forEach((item)=>{
     wrapper.innerHTML += `<li>${item}</li>`
 } );
-
-git init
-git add README.md
-git commit -m "first commit"
-git branch -M main
-git remote add origin https://github.com/DanielJamesF/dynamicElement.git
-git push -u origin main
