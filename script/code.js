@@ -1,11 +1,11 @@
 function smartPeople() {
     let names = ['Charles', 'Amanda', 'Bulelani', 'Cameron', 'Cassidy', 'Clayton', 'Daniel', 'Emile', 'Ikhlaas', 'Joshe', 'Joshua', 'Liam', 'Marshalino', 'Meagan', 'Michaela', 'Mikhail', 'Monique', 'Philani', 'Ra\'ees', 'Rasheedah', 'Reagan', 'Ridhaa', 'Saleem', 'Shane', 'Sibongile', 'Siliziwe', 'Sinethemba', 'Taucia', 'Yaseen'
 ];
-let Newul = document.createElement('ul');
-document.body.appendChild(Newul);
+let NewUl = document.createElement('ul');
+document.body.appendChild(NewUl);
 
 names.forEach( (item, index)=> {
-    ul.innerHTML += `<li>${index}: ${item} </li>`;
+    NewUl.innerHTML += `<li>${index}: ${item} </li>`;
 });
 }
 
